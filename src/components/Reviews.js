@@ -66,10 +66,10 @@ const Reviews=()=>{
             <p className='author'>Author: {author.name}</p>
             <p className='job'>Job: {author.job}</p>
             <p className='info'>Info: {author.text}</p>
-        </div>
-        <button className='prev-btn' onClick={handlePrev}>Prev</button>
+            <button className='prev-btn' onClick={handlePrev}>Prev</button>
         <button className='next-btn' onClick={handleNext}>Next</button>
         <button className='random-btn' onClick={handleRandom}>surprise me</button>
+        </div>
     </div>
 }
 
