@@ -59,11 +59,11 @@ const Reviews=()=>{
         return "author-"+author.id
     }
 
-    return <div className='reviews'>
+    return <div className='review'>
         <h1 id="review-heading">Our Reviews</h1>
-        <div className='review'>
+        <div className={generateId()}>
             <img className='person-img' src={author.image} width="200px"/>
-            <p className={generateId()}>Author: {author.name}</p>
+            <p className='author'>Author: {author.name}</p>
             <p className='job'>Job: {author.job}</p>
             <p className='info'>Info: {author.text}</p>
         </div>
