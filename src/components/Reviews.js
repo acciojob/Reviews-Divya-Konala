@@ -61,7 +61,7 @@ const Reviews=()=>{
 
     return <div className='review'>
         <h1 id="review-heading">Our Reviews</h1>
-        <div className={generateId()}>
+        <div id={generateId()}>
             <img className='person-img' src={author.image} width="200px"/>
             <p className='author'>Author: {author.name}</p>
             <p className='job'>Job: {author.job}</p>
